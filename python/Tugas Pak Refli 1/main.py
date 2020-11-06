@@ -1,0 +1,5 @@
+print("\n    Institut Teknologi Batam")
+print("======================================")
+print("\n Nama          \t : Muhamad Zulfikar")
+print("\n Nim           \t : 2021018")
+print("\n Program Studi \t : Sistem Informasi")
