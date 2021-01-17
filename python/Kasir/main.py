@@ -53,13 +53,13 @@ def total(subtotal):
 
 total = total(subtotal)
 
-if total >=10000:
+if total <20000:
     diskon = total * (10/100)
     harga = total - diskon
-elif total >=20000:
+elif total <30000:
     diskon = total * (20/100)
     harga = total - diskon
-elif total >= 30000:
+elif total >30000:
     diskon = total * (30/100)
 else:
     diskon = 0
