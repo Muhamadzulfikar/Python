@@ -4,9 +4,11 @@ pilihan=input("Operator yang dipilih(+, -, *, /):")
 nilai2=int(input("Nilai 2:"))
 if pilihan=="+":
     print(nilai1+nilai2)
-if pilihan=="-":
+elif pilihan=="-":
     print(nilai1-nilai2)
-if pilihan=="*":
+elif pilihan=="*":
     print(nilai1*nilai2)
-if pilihan=="/":
+elif pilihan=="/":
     print(nilai1/nilai2)
+else:
+    print("Anda salah memasukan operator")
